@@ -2,5 +2,5 @@
 纯html+css实现的扑克牌
 
 ## 效果展示
-![demo](./presentation-board/pocker_A.png)
+![demo](./presentation-board/poker_A.png)
 
