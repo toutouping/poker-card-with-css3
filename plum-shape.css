@@ -1,0 +1,40 @@
+.plum-shape{
+	position: relative;
+	width: 30px;
+	height: 30px; 
+    bottom: 12px;
+    margin: 0px;
+    border-radius: 50%;  
+    background-color: rgba(0,0,0, 1);  
+}
+
+.plum-shape:before,  
+.plum-shape:after{ 
+    position: absolute;  
+    width: 30px;  
+    height: 30px;  
+    content: '';  
+    border-radius: 50%;
+    background-color: rgba(0,0,0, 1);
+} 
+
+.plum-shape:before{  
+    bottom: -20px; 
+    right: -15px; 
+    background: linear-gradient(90deg, rgba(0,0,0, 1) 40%, #FBF3F3); 
+}  
+.plum-shape:after{  
+    bottom: -20px;
+    right: 15px;  
+}  
+
+.plum-shape .triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    left: 8px;
+    top: 12px;
+    border-style: solid;
+    border-color: transparent transparent #000 transparent;
+    border-width: 0 7px 48px 7px;
+}

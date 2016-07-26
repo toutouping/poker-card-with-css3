@@ -1,0 +1,38 @@
+.peach-shape{
+	position: relative;
+    width: 30px;
+    height: 30px; 
+    margin: 0px; 
+    background-color: rgba(0,0,0, 1);   
+}
+
+.peach-shape:before,  
+.peach-shape:after{ 
+    position: absolute;  
+    width: 30px;  
+    height: 30px;  
+    content: '';  
+    border-radius: 50%;  
+    background-color: rgba(0,0,0, 1); 
+
+} 
+
+.peach-shape:before{  
+    left: -15px;  
+    background: linear-gradient(225deg, rgba(0,0,0, 1) 40%, #FBF3F3);  
+}  
+.peach-shape:after{  
+     top: -15px;  
+}  
+
+.peach-shape .triangle { 
+    position: relative;
+    width: 0;
+    height: 0;
+    right: 2px;
+    bottom: 19px;
+    border-style: solid;
+    border-color: transparent transparent #000 transparent;
+    border-width: 0 7px 48px 7px;
+    transform: rotate(135deg); 
+}

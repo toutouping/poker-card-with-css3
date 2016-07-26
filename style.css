@@ -1,0 +1,16 @@
+body{
+    background:#fff;    
+    font-family: "DejaVu Serif";
+    color: rgb(255,0,0);
+}
+
+@font-face {
+    font-family: "Poker Font";
+    src: url("http://www.imooc.com/Amaranth-BoldItalic.otf");
+}
+
+#content{
+  position:absolute;
+  left:100px;
+  top:150px;
+}

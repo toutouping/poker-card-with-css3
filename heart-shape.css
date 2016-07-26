@@ -1,0 +1,25 @@
+.heart-shape{
+	position: relative;
+	width: 30px;
+	height: 30px; 
+    margin: 0px;
+    background-color: rgba(255,0,0, 1);   
+}
+
+.heart-shape:before,  
+.heart-shape:after{  
+    position: absolute;  
+    width: 30px;  
+    height: 30px;  
+    content: '';  
+    border-radius: 50%;   
+} 
+
+.heart-shape:before{   
+    left: -15px; 
+    background-color: rgba(255,0,0, 1);   
+}  
+.heart-shape:after{  
+    top: -15px;   
+    background: linear-gradient(45deg, rgba(255,0,0, 1) 40%, #FBF3F3);
+} 

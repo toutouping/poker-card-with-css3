@@ -1,0 +1,8 @@
+.square-shape{
+	position: relative;
+	width: 30px;
+	height: 30px; 
+    margin: 0px; 
+    background: linear-gradient(45deg, rgba(255,0,0, 1) 70%, #FBF3F3);
+}
+ 
